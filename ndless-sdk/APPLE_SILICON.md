@@ -1,0 +1,1 @@
+Apple Silicon support (M1/M2/M3) is provided by building the toolchain natively as arm64 binaries. No specific changes are required in the build script itself beyond ensuring prerequisites like GMP/MPFR/MPC/zlib are installed (often via homebrew) and using a native arm64 environment.
